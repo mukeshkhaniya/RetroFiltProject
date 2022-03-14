@@ -5,7 +5,7 @@ data class Location(
     val lat: Double,
     val localtime: String,
     val localtime_epoch: Int,
-    val lon: Double,
+    val lon: Int,
     val name: String,
     val region: String,
     val tz_id: String
